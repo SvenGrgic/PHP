@@ -11,10 +11,7 @@
         form { margin-bottom: 15px; }
     </style>
 </head>
-<body>
-
-    <h3>Igra (pogodi broj)</h3>
-    
+<body>    
     <form method="POST" action="">
         <label for="user_number">Upiši jedan broj od 1 do 9: </label>
         <input type="number" name="user_number" id="user_number" min="1" max="9" required>
